@@ -1,0 +1,60 @@
+#tabla {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+#fondo{
+    background-color: blue;
+}
+
+.mostrar {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.accion {
+    display: flex;
+    gap: 10px;
+}
+
+.edit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.delete {
+    background-color: #e84820;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.edit:hover {
+    background-color: #0056b3;
+}
+.delete:hover {
+    background-color: #da0808;
+}
